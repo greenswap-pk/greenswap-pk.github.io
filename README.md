@@ -147,7 +147,7 @@ footer {
 
 <nav>
     <div style="display: flex; align-items: center; gap: 12px;">
-        <img src="Logo.png" alt="GreenSwap Logo" style="height: 70px;">
+        <img src="Logo.png" alt="GreenSwap Logo" style="height: 100px;">
         <span>GreenSwap</span>
     </div>
 
