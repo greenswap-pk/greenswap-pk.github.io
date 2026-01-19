@@ -226,13 +226,10 @@ footer {
         Buchen Sie gerne einen Termin mit dem Projektteam.
     </p>
 
-   <div style="margin-top: 30px;">
-    <iframe 
-        src="https://calendly.com/khetibyasmin7/neues-meeting?month=2026-01"
-        width="100%" 
-        height="700" 
-        frameborder="0">
-    </iframe>
+  <div class="cta">
+    <a href="https://calendly.com/khetibyasmin7/neues-meeting?month=2026-01" target="_blank">
+        Termin buchen
+    </a>
 </div>
 
 
