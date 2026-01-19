@@ -1,104 +1,107 @@
-
+<!DOCTYPE html>
 <html lang="de">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GreenSwap – Tauschen statt Wegwerfen</title>
+<title>GreenSwap – Nachhaltig tauschen statt wegwerfen</title>
 
 <style>
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #2c2c2c;
     background: #ffffff;
-    color: #333;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
-/* NAVIGATION */
+/* NAV */
 nav {
-    background: #6cc04a;
-    padding: 14px 30px;
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    border-bottom: 1px solid #eee;
+    padding: 15px 40px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 
-nav img {
-    height: 55px;
+nav strong {
+    color: #2f6f2e;
+    font-size: 22px;
 }
 
 nav a {
-    color: white;
     text-decoration: none;
-    font-weight: 600;
-    margin-left: 20px;
+    margin-left: 25px;
+    font-weight: 500;
+    color: #2f6f2e;
 }
 
 /* HERO */
 .hero {
-    background: #f4fdf0;
-    padding: 90px 20px;
+    padding: 80px 20px 60px;
     text-align: center;
+    background: linear-gradient(#f4fdf0, #ffffff);
 }
 
 .hero h1 {
-    font-size: 50px;
+    font-size: 44px;
+    margin-bottom: 10px;
     color: #2f6f2e;
-    margin-bottom: 15px;
 }
 
 .hero p {
-    font-size: 22px;
+    font-size: 20px;
     max-width: 700px;
     margin: auto;
-    color: #2f6f2e;
 }
 
 /* SECTIONS */
-.section {
-    width: 90%;
+section {
     max-width: 1100px;
-    margin: 60px auto;
-    padding: 30px;
+    margin: 80px auto;
+    padding: 0 25px;
 }
 
-.section h2 {
+h2 {
     font-size: 32px;
     color: #2f6f2e;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
-.section p {
+p {
     font-size: 18px;
     max-width: 900px;
 }
 
-/* BOXES */
-.boxes {
+/* CARDS */
+.cards {
     display: flex;
-    gap: 25px;
+    gap: 30px;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
-.box {
+.card {
     flex: 1;
-    min-width: 250px;
+    min-width: 260px;
     background: #f4fdf0;
-    padding: 25px;
-    border-radius: 12px;
+    padding: 30px;
+    border-radius: 14px;
 }
 
-/* PLACEHOLDER */
+/* VIDEO / CALENDLY PLACEHOLDER */
 .placeholder {
-    background: #f0f0f0;
-    border: 2px dashed #bbb;
+    background: #f8f8f8;
+    border: 2px dashed #ccc;
     border-radius: 14px;
     padding: 60px;
     text-align: center;
     font-size: 18px;
     color: #666;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 /* CTA */
@@ -110,17 +113,18 @@ nav a {
 .cta a {
     background: #6cc04a;
     color: white;
-    padding: 16px 34px;
-    border-radius: 40px;
+    padding: 16px 36px;
+    border-radius: 50px;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 /* FOOTER */
 footer {
+    margin-top: 100px;
+    padding: 30px;
     background: #f4fdf0;
-    padding: 25px;
     text-align: center;
     font-size: 14px;
     color: #666;
@@ -130,81 +134,59 @@ footer {
 
 <body>
 
-<!-- NAV -->
 <nav>
-    <img src="logo.jpg" alt="GreenSwap Logo">
+    <strong>GreenSwap</strong>
     <div>
-        <a href="#">Startseite</a>
-        <a href="#">Projekt</a>
-        <a href="#">Kontakt</a>
+        <a href="#idee">Idee</a>
+        <a href="#video">Pitch</a>
+        <a href="#kontakt">Kontakt</a>
     </div>
 </nav>
 
-<!-- HERO -->
 <section class="hero">
     <h1>GreenSwap</h1>
     <p>
         Die nachhaltige Tauschplattform für Studierende –  
-        weil Teilen sinnvoller ist als Wegwerfen.
+        lokal, kostenlos und sinnvoll.
     </p>
 </section>
 
-<!-- VISION / WHY -->
-<section class="section">
-    <h2>Warum GreenSwap?</h2>
+<section id="idee">
+    <h2>Das Problem</h2>
     <p>
-        Studierende ziehen häufig um, haben begrenzte finanzielle Mittel und benötigen viele
-        Gegenstände nur temporär – etwa Lehrbücher, Haushaltsgeräte oder Kleidung.
-        Trotzdem werden funktionierende Dinge oft weggeworfen oder neu gekauft,
-        weil eine einfache und vertrauenswürdige Tauschmöglichkeit fehlt.
+        Studierende besitzen viele Dinge nur auf Zeit: Lehrbücher, Küchengeräte,
+        Kleidung oder Möbel. Trotzdem werden funktionierende Gegenstände häufig
+        weggeworfen oder neu gekauft – aus Bequemlichkeit oder mangels Alternativen.
     </p>
-    <p>
-        GreenSwap ist aus genau diesem Problem entstanden und schafft eine nachhaltige,
-        lokale und studierendenorientierte Alternative zum Wegwerfen und Neukaufen.
-    </p>
-</section>
 
-<!-- LÖSUNG -->
-<section class="section">
     <h2>Unsere Lösung</h2>
     <p>
-        GreenSwap ist eine digitale Plattform, auf der Studierende Gegenstände kostenlos
-        und lokal tauschen können. Ziel ist es, Ressourcen zu schonen, Kosten zu sparen
-        und nachhaltiges Verhalten im Alltag zu fördern.
+        GreenSwap schafft eine einfache, digitale Möglichkeit, Gegenstände lokal
+        unter Studierenden zu tauschen. Ohne Geld, ohne Versand – nachhaltig und
+        gemeinschaftlich.
     </p>
 
-    <div class="boxes">
-        <div class="box">
+    <div class="cards">
+        <div class="card">
             🌱 <strong>Nachhaltig</strong><br>
-            Weniger Müll durch Wiederverwendung vorhandener Ressourcen.
+            Weniger Müll, mehr Wiederverwendung.
         </div>
-        <div class="box">
-            🎓 <strong>Studierendenfokus</strong><br>
-            Entwickelt für den studentischen Alltag und lokale Communities.
+        <div class="card">
+            🎓 <strong>Für Studierende</strong><br>
+            Entwickelt für studentische Lebensrealitäten.
         </div>
-        <div class="box">
-            💸 <strong>Kostenlos</strong><br>
-            Tauschen statt kaufen – ohne finanzielle Hürden.
+        <div class="card">
+            💚 <strong>Einfach</strong><br>
+            Tauschen statt kaufen – unkompliziert & lokal.
         </div>
     </div>
 </section>
 
-<!-- FUNKTION -->
-<section class="section">
-    <h2>Wie funktioniert GreenSwap?</h2>
-    <p>
-        1. Studierende stellen Gegenstände ein, die sie nicht mehr benötigen.<br>
-        2. Andere finden diese lokal über die Plattform.<br>
-        3. Der Tausch erfolgt unkompliziert und nachhaltig.
-    </p>
-</section>
-
-<!-- VIDEO -->
-<section class="section">
+<section id="video">
     <h2>MVP Pitch-Video</h2>
     <p>
-        In unserem kurzen Pitch-Video erklären wir die Idee von GreenSwap,
-        zeigen den Mehrwert für Studierende und unsere Vision für nachhaltiges Teilen.
+        In unserem Pitch-Video stellen wir GreenSwap vor, erklären den Mehrwert
+        für Studierende und zeigen unsere Vision.
     </p>
 
     <div class="placeholder">
@@ -212,8 +194,7 @@ footer {
     </div>
 </section>
 
-<!-- CALENDLY -->
-<section class="section">
+<section id="kontakt">
     <h2>Interesse an GreenSwap?</h2>
     <p>
         Sie möchten mehr über das Projekt erfahren oder Feedback geben?
@@ -221,7 +202,7 @@ footer {
     </p>
 
     <div class="placeholder">
-        📅 Hier wird der Calendly-Termin eingebettet
+        📅 Hier wird der Calendly-Kalender eingebettet
     </div>
 
     <div class="cta">
@@ -235,4 +216,5 @@ footer {
 
 </body>
 </html>
+
 
