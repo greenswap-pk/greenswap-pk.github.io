@@ -226,9 +226,15 @@ footer {
         Buchen Sie gerne einen Termin mit dem Projektteam.
     </p>
 
-    <div class="placeholder">
-        📅 Hier wird der Calendly-Kalender eingebettet
-    </div>
+   <div style="margin-top: 30px;">
+    <iframe 
+        src="https://calendly.com/khetibyasmin7/neues-meeting?month=2026-01"
+        width="100%" 
+        height="700" 
+        frameborder="0">
+    </iframe>
+</div>
+
 
     <div class="cta">
         <a href="#">Termin buchen</a>
