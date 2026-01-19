@@ -146,13 +146,17 @@ footer {
 <body>
 
 <nav>
-    <span>GreenSwap</span>
+    <div style="display: flex; align-items: center; gap: 12px;">
+        <img src="logo.png" alt="GreenSwap Logo" style="height: 42px;">
+        <span>GreenSwap</span>
+    </div>
     <div>
         <a href="#idee">Idee</a>
         <a href="#video">Pitch</a>
         <a href="#termin">Termin</a>
     </div>
 </nav>
+
 
 <section class="hero">
     <h1>GreenSwap</h1>
