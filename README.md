@@ -232,10 +232,6 @@ footer {
     </a>
 </div>
 
-
-    <div class="cta">
-        <a href="#">Termin buchen</a>
-    </div>
 </section>
 
 <footer>
