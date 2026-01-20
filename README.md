@@ -12,8 +12,6 @@ body {
     background: #ffffff;
     color: #2c2c2c;
 }
-
-/* NAV */
 nav {
     background: #2f6f2e;
     padding: 16px 40px;
@@ -35,7 +33,6 @@ nav a {
     font-weight: 500;
 }
 
-/* HERO */
 .hero {
     padding: 90px 20px;
     text-align: center;
@@ -78,7 +75,7 @@ p {
     max-width: 900px;
 }
 
-/* CARDS */
+
 .cards {
     display: flex;
     gap: 25px;
@@ -95,7 +92,7 @@ p {
     border-top: 6px solid #6cc04a;
 }
 
-/* HIGHLIGHT */
+
 .highlight {
     background: #f4fdf0;
     padding: 35px;
@@ -104,7 +101,7 @@ p {
     font-size: 18px;
 }
 
-/* PLACEHOLDER */
+
 .placeholder {
     background: #ffffff;
     border: 3px dashed #6cc04a;
@@ -116,7 +113,7 @@ p {
     margin-top: 30px;
 }
 
-/* CTA */
+
 .cta {
     text-align: center;
     margin-top: 40px;
@@ -132,7 +129,7 @@ p {
     font-weight: bold;
 }
 
-/* FOOTER */
+
 footer {
     margin-top: 100px;
     padding: 30px;
