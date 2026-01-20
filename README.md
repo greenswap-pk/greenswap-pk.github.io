@@ -14,44 +14,54 @@ body {
 }
 nav {
     background: #2f6f2e;
-    padding: 16px 40px;
+    padding: 10px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.nav-left img {
+    height: 55px;
+    width: auto;
+}    
+.nav-left img {
+    height: 55px;
+    width: auto;
+}
 
 nav span {
     color: white;
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 nav a {
     color: white;
-    margin-left: 25px;
+    margin-left: 30px;
     text-decoration: none;
     font-weight: 500;
+    font-size: 16px;
 }
 
 .hero {
-    padding: 90px 20px;
+    padding: 70px 20px;
     text-align: center;
     background: linear-gradient(135deg, #6cc04a, #2f6f2e);
     color: white;
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: 52px;
     margin-bottom: 10px;
 }
 
 .hero p {
-    font-size: 20px;
-    max-width: 700px;
-    margin: auto;
+    font-size: 22px;
+    margin: 5px 0;
 }
-
-/* SECTION */
+.hero .sub {
+    font-size: 18px;
+    opacity: 0.9;
+}
 section {
     max-width: 1100px;
     margin: 80px auto;
@@ -158,8 +168,8 @@ footer {
 
 <section class="hero">
     <h1>GreenSwap</h1>
-    <p>
-        Tauschen statt Wegwerfen.<br>
+    <p> Tauschen statt Wegwerfen.</p>
+    <p class="sub">
         Nachhaltig. Lokal. Kostenlos.
     </p>
 </section>
@@ -189,19 +199,51 @@ footer {
 
     <div class="cards">
         <div class="card">
-            🌱 <strong>Ökologischer Impact</strong><br>
-            Weniger Müll, geringerer Ressourcenverbrauch.
+            🌱 <strong>Nachhaltig & sinnvoll</strong><br>
+            Gegenstände werden weitergegeben statt weggeworfen –
+            das spart Ressourcen und Müll.
         </div>
+
         <div class="card">
-            🎓 <strong>Studierendenzentriert</strong><br>
-            Für Wohnheime, WGs und Hochschulstandorte.
+            🎓 <strong>Speziell für Studierende</strong><br>
+            Viele Dinge werden nur für kurze Zeit gebraucht –
+            GreenSwap erleichtert den Austausch unter Studierenden.
         </div>
+
         <div class="card">
-            🤝 <strong>Community-Gedanke</strong><br>
-            Teilen stärkt lokale Gemeinschaften.
+            🤝 <strong>Einfach & lokal</strong><br>
+            Tauschen innerhalb der eigenen Stadt oder Hochschule,
+            ohne Versand oder Kosten.
         </div>
     </div>
 </section>
+
+<section>
+    <div class="section-title">
+        <h2>So funktioniert GreenSwap</h2>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            📦 <strong>1. Einstellen</strong><br>
+            Studierende stellen Gegenstände ein, die sie nicht mehr benötigen
+            (z. B. Möbel, Küchengeräte oder Lernmaterialien).
+        </div>
+
+        <div class="card">
+            🔍 <strong>2. Finden</strong><br>
+            Andere Studierende aus der Nähe sehen die Angebote
+            und finden genau das, was sie gerade brauchen.
+        </div>
+
+        <div class="card">
+            🤝 <strong>3. Tauschen & Abholen</strong><br>
+            Die Übergabe erfolgt direkt und lokal – kostenlos,
+            unkompliziert und nachhaltig.
+        </div>
+    </div>
+</section>
+
 
 <section id="video">
     <div class="section-title">
