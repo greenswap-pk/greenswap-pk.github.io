@@ -1,4 +1,3 @@
-
 <html lang="de">
 <head>
 <meta charset="UTF-8">
@@ -18,6 +17,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0;
 }
 .nav-left img {
     height: 55px;
@@ -43,20 +43,21 @@ nav a {
 }
 
 .hero {
-    padding: 70px 20px;
+    padding: 50px 20px 20px;
+    margin-top: 0;
     text-align: center;
     background: linear-gradient(135deg, #6cc04a, #2f6f2e);
     color: white;
 }
 
 .hero h1 {
-    font-size: 52px;
-    margin-bottom: 10px;
+    font-size: 46px;
+    margin-bottom: 6px;
 }
 
 .hero p {
-    font-size: 22px;
-    margin: 5px 0;
+    font-size: 20px;
+    margin: 4px 0;
 }
 .hero .sub {
     font-size: 18px;
@@ -155,7 +156,6 @@ footer {
 <nav>
     <div style="display: flex; align-items: center; gap: 12px;">
         <img src="Logo.png" alt="GreenSwap Logo" style="height: 110px;">
-        <span>GreenSwap</span>
     </div>
 
     <div>
