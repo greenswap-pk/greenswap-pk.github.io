@@ -255,9 +255,17 @@ footer {
         und warum GreenSwap ein nachhaltiger Lösungsansatz ist.
     </p>
 
-    <div class="placeholder">
-        🎬 Hier wird das selbstgedrehte Pitch-Video eingebettet
-    </div>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 18px; margin-top: 30px;">
+  <iframe 
+    src="https://youtu.be/PDAm-zsWw5Q?si=546kUrnroz3r2SzH" 
+    title="GreenSwap - Tauschen statt Wegwerfen"
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
+
 </section>
 
 <section id="termin">
