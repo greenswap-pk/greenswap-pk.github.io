@@ -12,57 +12,49 @@ body {
     color: #2c2c2c;
 }
 nav {
-    background: #2f6f2e;
-    padding: 10px 40px;
+    background: var(--green-dark);
+    padding: 14px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0;
-}
-.nav-left img {
-    height: 55px;
-    width: auto;
-}    
-.nav-left img {
-    height: 55px;
-    width: auto;
 }
 
-nav span {
-    color: white;
-    font-size: 20px;
-    font-weight: 600;
+nav img {
+    height: 50px;
+    width: auto;
 }
 
 nav a {
     color: white;
-    margin-left: 30px;
+    margin-left: 28px;
     text-decoration: none;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
 }
-
 .hero {
-    padding: 50px 20px 20px;
-    margin-top: 0;
+    padding: 90px 20px 80px;
     text-align: center;
-    background: linear-gradient(135deg, #6cc04a, #2f6f2e);
+    background: linear-gradient(160deg, var(--green-light), var(--green-dark));
     color: white;
 }
 
 .hero h1 {
-    font-size: 46px;
-    margin-bottom: 6px;
+    font-size: 50px;
+    margin-bottom: 12px;
+    font-weight: 700;
 }
 
 .hero p {
     font-size: 20px;
     margin: 4px 0;
+    opacity: 0.95;
 }
+
 .hero .sub {
     font-size: 18px;
-    opacity: 0.9;
+    opacity: 0.85;
 }
+
 section {
     max-width: 1100px;
     margin: 80px auto;
@@ -70,7 +62,7 @@ section {
 }
 
 .section-title {
-    border-left: 6px solid #6cc04a;
+    border-left: 5px solid var
     padding-left: 15px;
     margin-bottom: 25px;
 }
@@ -97,10 +89,11 @@ p {
 .card {
     flex: 1;
     min-width: 260px;
-    background: #f4fdf0;
+    background: #f1f8f2;
     padding: 30px;
     border-radius: 16px;
-    border-top: 6px solid #6cc04a;
+    border-top: 5px solid var
+
 }
 
 
@@ -155,7 +148,7 @@ footer {
 
 <nav>
     <div style="display: flex; align-items: center; gap: 12px;">
-        <img src="Logo.png" alt="GreenSwap Logo" style="height: 110px;">
+        <img src="Logo.png" alt="GreenSwap Logo">
     </div>
 
     <div>
@@ -247,11 +240,11 @@ footer {
 
 <section id="video">
     <div class="section-title">
-        <h2>MVP Pitch-Video</h2>
+        <h2>Video</h2>
     </div>
 
     <p>
-        In unserem Pitch-Video erklären wir die Idee, das Problem
+        In unserem Video erklären wir die Idee, das Problem
         und warum GreenSwap ein nachhaltiger Lösungsansatz ist.
     </p>
 
@@ -288,7 +281,7 @@ footer {
 </section>
 
 <footer>
-    © 2025 GreenSwap – Hochschulprojekt von Hannah & Yasmin
+    © 2025 GreenSwap 
 </footer>
 
 </body>
