@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="de">
 <head>
 <meta charset="UTF-8">
@@ -11,50 +12,48 @@ body {
     background: #ffffff;
     color: #2c2c2c;
 }
+
+/* NAVIGATION */
 nav {
-    background: var(--green-dark);
-    padding: 14px 40px;
+    background: #2f6f2e;
+    padding: 12px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 nav img {
-    height: 50px;
-    width: auto;
+    height: 70px;
 }
 
 nav a {
     color: white;
-    margin-left: 28px;
+    margin-left: 30px;
     text-decoration: none;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
 }
+
+/* HERO */
 .hero {
-    padding: 90px 20px 80px;
+    padding: 80px 20px 70px;
     text-align: center;
-    background: linear-gradient(160deg, var(--green-light), var(--green-dark));
+    background: #2f6f2e;
     color: white;
 }
 
 .hero h1 {
-    font-size: 50px;
-    margin-bottom: 12px;
-    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 10px;
 }
 
 .hero p {
     font-size: 20px;
-    margin: 4px 0;
+    margin: 6px 0;
     opacity: 0.95;
 }
 
-.hero .sub {
-    font-size: 18px;
-    opacity: 0.85;
-}
-
+/* SECTIONS */
 section {
     max-width: 1100px;
     margin: 80px auto;
@@ -62,14 +61,12 @@ section {
 }
 
 .section-title {
-    border-left: 5px solid var
-    padding-left: 15px;
     margin-bottom: 25px;
 }
 
 .section-title h2 {
     margin: 0;
-    font-size: 32px;
+    font-size: 30px;
     color: #2f6f2e;
 }
 
@@ -78,7 +75,7 @@ p {
     max-width: 900px;
 }
 
-
+/* CARDS */
 .cards {
     display: flex;
     gap: 25px;
@@ -89,14 +86,12 @@ p {
 .card {
     flex: 1;
     min-width: 260px;
-    background: #f1f8f2;
+    background: #f4fdf0;
     padding: 30px;
     border-radius: 16px;
-    border-top: 5px solid var
-
 }
 
-
+/* HIGHLIGHT BOX */
 .highlight {
     background: #f4fdf0;
     padding: 35px;
@@ -105,19 +100,25 @@ p {
     font-size: 18px;
 }
 
-
-.placeholder {
-    background: #ffffff;
-    border: 3px dashed #6cc04a;
-    border-radius: 18px;
-    padding: 60px;
-    text-align: center;
-    font-size: 18px;
-    color: #2f6f2e;
+/* VIDEO */
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
     margin-top: 30px;
+    border-radius: 16px;
 }
 
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
+/* BUTTON */
 .cta {
     text-align: center;
     margin-top: 40px;
@@ -133,7 +134,7 @@ p {
     font-weight: bold;
 }
 
-
+/* FOOTER */
 footer {
     margin-top: 100px;
     padding: 30px;
@@ -147,10 +148,7 @@ footer {
 <body>
 
 <nav>
-    <div style="display: flex; align-items: center; gap: 12px;">
-        <img src="Logo.png" alt="GreenSwap Logo">
-    </div>
-
+    <img src="Logo.png" alt="GreenSwap Logo">
     <div>
         <a href="#idee">Idee</a>
         <a href="#video">Pitch</a>
@@ -158,13 +156,10 @@ footer {
     </div>
 </nav>
 
-
 <section class="hero">
     <h1>GreenSwap</h1>
-    <p> Tauschen statt Wegwerfen.</p>
-    <p class="sub">
-        Nachhaltig. Lokal. Kostenlos.
-    </p>
+    <p>Tauschen statt Wegwerfen</p>
+    <p>Nachhaltig · Lokal · Kostenlos</p>
 </section>
 
 <section id="idee">
@@ -193,20 +188,17 @@ footer {
     <div class="cards">
         <div class="card">
             🌱 <strong>Nachhaltig & sinnvoll</strong><br>
-            Gegenstände werden weitergegeben statt weggeworfen –
-            das spart Ressourcen und Müll.
+            Gegenstände werden weitergegeben statt weggeworfen – das spart Ressourcen und Müll.
         </div>
 
         <div class="card">
             🎓 <strong>Speziell für Studierende</strong><br>
-            Viele Dinge werden nur für kurze Zeit gebraucht –
-            GreenSwap erleichtert den Austausch unter Studierenden.
+            Viele Dinge werden nur für kurze Zeit gebraucht – GreenSwap erleichtert den Austausch.
         </div>
 
         <div class="card">
             🤝 <strong>Einfach & lokal</strong><br>
-            Tauschen innerhalb der eigenen Stadt oder Hochschule,
-            ohne Versand oder Kosten.
+            Tauschen innerhalb der eigenen Stadt oder Hochschule – ohne Versand oder Kosten.
         </div>
     </div>
 </section>
@@ -217,49 +209,26 @@ footer {
     </div>
 
     <div class="cards">
-        <div class="card">
-            📦 <strong>1. Einstellen</strong><br>
-            Studierende stellen Gegenstände ein, die sie nicht mehr benötigen
-            (z. B. Möbel, Küchengeräte oder Lernmaterialien).
-        </div>
-
-        <div class="card">
-            🔍 <strong>2. Finden</strong><br>
-            Andere Studierende aus der Nähe sehen die Angebote
-            und finden genau das, was sie gerade brauchen.
-        </div>
-
-        <div class="card">
-            🤝 <strong>3. Tauschen & Abholen</strong><br>
-            Die Übergabe erfolgt direkt und lokal – kostenlos,
-            unkompliziert und nachhaltig.
-        </div>
+        <div class="card">📦 <strong>1. Einstellen</strong><br>Studierende stellen Gegenstände ein, die sie nicht mehr benötigen (z. B. Möbel, Küchengeräte oder Lernmaterialien).</div>
+        <div class="card">🔍 <strong>2. Finden</strong><br>Andere Studierende aus der Nähe sehen die Angebote und finden genau das, was sie gerade brauchen.</div>
+        <div class="card">🤝 <strong>3. Abholen</strong><br>Die Übergabe erfolgt direkt und lokal – kostenlos, unkompliziert und nachhaltig.</div>
     </div>
 </section>
-
 
 <section id="video">
     <div class="section-title">
         <h2>Video</h2>
     </div>
 
-    <p>
-        In unserem Video erklären wir die Idee, das Problem
-        und warum GreenSwap ein nachhaltiger Lösungsansatz ist.
-    </p>
+    <p>In unserem Video erklären wir die Idee, das Problem und warum GreenSwap ein nachhaltiger Lösungsansatz ist</p>
 
-   <div style="margin-top:30px; text-align:center;">
-    <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/PDAm-zsWw5Q?si=AIV1t3AgYJtAQ58E"
+    <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/PDAm-zsWw5Q"
         title="GreenSwap Pitch Video"
         frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen>
-    </iframe>
-</div>
-
-
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
 </section>
 
 <section id="termin">
@@ -267,25 +236,20 @@ footer {
         <h2>Interesse geweckt?</h2>
     </div>
 
-    <p>
-        Wir freuen uns über Feedback, Fragen oder Austausch zur Idee.
-        Buchen Sie gerne einen Termin mit dem Projektteam.
+    <p>Wir freuen uns über Feedback, Fragen oder Austausch zur Idee.
+       Buchen Sie gerne einen Termin mit uns.
     </p>
 
-  <div class="cta">
-    <a href="https://calendly.com/khetibyasmin7/neues-meeting?month=2026-01" target="_blank">
-        Termin buchen
-    </a>
-</div>
-
+    <div class="cta">
+        <a href="https://calendly.com/khetibyasmin7/neues-meeting?month=2026-01" target="_blank">
+            Termin buchen
+        </a>
+    </div>
 </section>
 
 <footer>
-    © 2025 GreenSwap 
+    © 2025 GreenSwap
 </footer>
 
 </body>
 </html>
-
-
-
