@@ -145,10 +145,16 @@ footer {
 </nav>
 
 <section class="hero">
-    <h1>GreenSwap</h1>
-    <p> Tauschen statt Wegwerfen.</p>
-    <p class="sub"> Nachhaltig. Lokal. Kostenlos. </p>
+    <div class="hero-inner">
+        <img src="Logo.png" alt="GreenSwap Logo">
+        <div>
+            <h1>GreenSwap</h1>
+            <p class="tagline">Tauschen statt Wegwerfen.</p>
+            <p class="sub">Nachhaltig · Lokal · Kostenlos</p>
+        </div>
+    </div>
 </section>
+
 
 <section id="idee">
     <div class="section-title">
