@@ -156,8 +156,8 @@ footer {
 
 <section class="hero">
     <h1>Greenswap</h1>
-    <p class="tagline">Tauschen statt Wegwerfen.</p>
-    <p class="sub">Nachhaltig · Lokal · Kostenlos</p>
+    <p class="tagline">        Tauschen statt Wegwerfen.</p>
+    <p class="sub">    Nachhaltig · Lokal · Kostenlos</p>
 </section>
 
 
