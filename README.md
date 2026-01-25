@@ -62,10 +62,22 @@ nav a {
     color: #4b7f4a;
     margin-top: 6px;
 }
+    .hero h1 {
+    margin-bottom: 10px;
+}
+
+.hero .tagline {
+    margin-top: 0;
+}
+
+.hero .sub {
+    margin-top: 6px;
+}
+
 
 section {
     max-width: 1100px;
-    margin: 80px auto;
+    margin: 50px auto;
     padding: 0 25px;
 }
 .section-title {
@@ -159,7 +171,7 @@ footer {
 
 <section id="idee">
     <div class="section-title">
-        <h2>Warum braucht es GreenSwap?</h2>
+        <h2>Warum braucht es Greenswap?</h2>
     </div>
     <p>
         Jedes Semester werden unzählige funktionierende Gegenstände entsorgt,
@@ -167,14 +179,14 @@ footer {
         nur temporär – und zahlen am Ende doppelt: mit Geld und Umweltkosten.
     </p>
     <div class="highlight">
-        <strong>GreenSwap setzt genau hier an:</strong><br>
+        <strong>Greenswap setzt genau hier an:</strong><br>
         Wir verbinden Studierende lokal miteinander, damit Dinge weiterverwendet statt weggeworfen werden.
     </div>
 </section>
 
 <section>
     <div class="section-title">
-        <h2>Was macht GreenSwap besonders?</h2>
+        <h2>Was macht Greenswap besonders?</h2>
     </div>
     <div class="cards">
         <div class="card">
@@ -194,7 +206,7 @@ footer {
 
 <section>
     <div class="section-title">
-        <h2>So funktioniert GreenSwap</h2>
+        <h2>So funktioniert Greenswap</h2>
     </div>
     <div class="cards">
         <div class="card">
@@ -246,7 +258,7 @@ footer {
 </section>
 
 <footer>
-    © 2025 GreenSwap 
+    © 2025 Greenswap 
 </footer>
 
 </body>
