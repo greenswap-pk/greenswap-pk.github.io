@@ -156,7 +156,7 @@ footer {
     </div>
     <div>
         <a href="#idee">Idee</a>
-        <a href="#video">Pitch</a>
+        <a href="#video">Video</a>
         <a href="#termin">Termin</a>
     </div>
 </nav>
