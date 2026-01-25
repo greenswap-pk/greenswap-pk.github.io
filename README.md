@@ -137,6 +137,13 @@ footer {
     .hero * {
     border: none !important;
 }
+    .hero p {
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 
 </style>
 </head>
