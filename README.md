@@ -40,24 +40,29 @@ nav a {
     font-size: 16px;
 }
 .hero {
-    padding: 50px 20px 20px;
-    margin-top: 0;
+    background: #ffffff;
+    color: #2f6f2e;
+    padding: 100px 20px 80px;
     text-align: center;
-    background: linear-gradient(135deg, #6cc04a, #2f6f2e);
-    color: white;
 }
+
 .hero h1 {
-    font-size: 46px;
-    margin-bottom: 6px;
+    font-size: 58px;
+    margin: 0;
 }
-.hero p {
-    font-size: 20px;
-    margin: 4px 0;
+
+.tagline {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 12px;
 }
+
 .hero .sub {
-    font-size: 18px;
-    opacity: 0.9;
+    font-size: 17px;
+    color: #4b7f4a;
+    margin-top: 6px;
 }
+
 section {
     max-width: 1100px;
     margin: 80px auto;
@@ -145,15 +150,11 @@ footer {
 </nav>
 
 <section class="hero">
-    <div class="hero-inner">
-        <img src="Logo.png" alt="GreenSwap Logo">
-        <div>
-            <h1>GreenSwap</h1>
-            <p class="tagline">Tauschen statt Wegwerfen.</p>
-            <p class="sub">Nachhaltig · Lokal · Kostenlos</p>
-        </div>
-    </div>
+    <h1>GreenSwap</h1>
+    <p class="tagline">Tauschen statt Wegwerfen.</p>
+    <p class="sub">Nachhaltig · Lokal · Kostenlos</p>
 </section>
+
 
 
 <section id="idee">
