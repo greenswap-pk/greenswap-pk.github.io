@@ -163,8 +163,8 @@ footer {
 
 <section class="hero">
     <h1>Greenswap</h1>
-    <p class="tagline">        Tauschen statt Wegwerfen.</p>
-    <p class="sub">    Nachhaltig · Lokal · Kostenlos</p>
+    <p class="tagline">Tauschen statt Wegwerfen.</p>
+    <p class="sub">Nachhaltig · Lokal · Kostenlos</p>
 </section>
 
 
@@ -195,7 +195,7 @@ footer {
         </div>
         <div class="card">
             🎓 <strong>Speziell für Studierende</strong><br>
-            Viele Dinge werden nur für kurze Zeit gebraucht – GreenSwap erleichtert den Austausch unter Studierenden.
+            Viele Dinge werden nur für kurze Zeit gebraucht – Greenswap erleichtert den Austausch unter Studierenden.
         </div>
         <div class="card">
             🤝 <strong>Einfach & lokal</strong><br>
